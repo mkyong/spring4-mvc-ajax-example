@@ -22,4 +22,4 @@ Access ```http://localhost:8080/spring4ajax```
 3. Done.
 
 ###4. Project Demo
-Please refer to this article [Maven - Spring 3 MVC Hello World ](http://www.mkyong.com/spring-mvc/spring-4-mvc-ajax-hello-world-example/)
+Please refer to this article [Spring 4 Ajax Example](http://www.mkyong.com/spring-mvc/spring-4-mvc-ajax-hello-world-example/)

@@ -120,7 +120,21 @@
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
-			
+
+			<!-- Deploy to WildFly -->
+			<plugin>
+				<groupId>org.wildfly.plugins</groupId>
+				<artifactId>wildfly-maven-plugin</artifactId>
+				<version>1.1.0.Alpha5</version>
+				<configuration>
+					<hostname>127.0.0.1</hostname>
+					<port>9990</port>
+					<username>admin</username>
+					<password>admin</password>
+					<name>spring4ajax.war</name>
+				</configuration>
+			</plugin>
+
 		</plugins>
 	</build>
 
